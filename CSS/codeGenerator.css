@@ -1,0 +1,100 @@
+/* 
+    Document   : codeGenerator
+    Created on : 09/07/2011, 17:58:54
+    Author     : Destroyer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+h2{
+    margin-top: 30px;
+}
+#estrutura{
+    display: block;
+    height: 230px;
+    width: 850px;
+    border: 1px dotted black;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+#estrutura hr{
+    display: block;
+    float: left;
+    margin: 10px 0 10px 0;
+    *margin: 10px 0 0px 0;
+    width: 100%;
+}
+#estrutura label{
+    display: block;
+    float: left;
+}
+#estrutura label span{
+    font-size: 12px;
+    color: tomato;
+}
+#estrutura div{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 49%;
+}
+#estrutura label input, #estrutura label textarea{
+    padding: 5px;
+}
+#estrutura #pulaLinha{
+    width: 60%;
+}
+#estrutura .classe{
+    width: 250px;
+}
+#estrutura #classe{
+    width: 250px;
+    border: 1px solid black;
+    color: blue;
+}
+#estrutura .metodo{
+    width: 100%;
+}
+#estrutura #metodo{
+    width: 100%;
+    border: 1px solid black;
+    color: blue;
+    height: 60px;
+}
+#estrutura #botao{
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#estrutura .limpar{
+    margin-left: 10px;
+}
+#estrutura #limpar{
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#estrutura div #tipoPage{
+    margin-left: 20px;
+}
+#estrutura div #geraPage{
+    margin-left: 20px;
+}
+

@@ -1,0 +1,66 @@
+/* 
+    Document   : index
+    Created on : 31/03/2012, 02:04:23
+    Author     : Destroyer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    display: block;
+    width: 99.5%;
+    height: 100%;
+}
+
+#estrutura{
+    display: block;
+    width: 99.5%;
+    height: 100%;    
+}
+#estrutura #top{
+    display: block;
+    width: 99.4%;
+    height: 70px;
+    background-color: #2c83c0;
+    float: left;
+    padding: 10px;
+}
+#estrutura #top img{
+    display: block;
+    float: left;
+}
+#estrutura #top h2{
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#estrutura #top label{
+    display: block;
+    margin-left: 25px;
+    float: left;
+    margin-top: 35px;
+    cursor: pointer;
+} 
+#estrutura #body{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#estrutura #footer{
+    display: block;
+    width: 100%;
+    height: 20px; 
+    position: absolute;
+    bottom: 0;
+    margin-top: 5px;
+    background-color: #2c83c0;
+}
